@@ -30,7 +30,9 @@
         }
     },
     "assets": {
-        "css": [],
+        "css": [
+            "https://roll20.net/assets/v2.css"
+        ],
         "js": []
     },
     "font_libraries": {

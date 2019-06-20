@@ -49,6 +49,19 @@
             }
         ]
     },
-    "groups": [],
+    "groups": [
+        {
+            "name": "branding",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "button",
+                    "title": "primary",
+                    "width": "half"
+                }
+            ]
+        }
+    ],
     "version": "1.9.5"
 }

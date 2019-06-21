@@ -1,5 +1,5 @@
 {
-    "project_logo": null,
+    "project_logo": "https://app.roll20.net/v2/images/roll20-logo.png",
     "project_favicon": "favicon.png",
     "project_name": null,
     "project_url": null,
@@ -26,7 +26,7 @@
         "titles": {
             "library_title": "Pattern Library",
             "pages_title": "Overview",
-            "components_title": "Components"
+            "components_title": "Elements"
         }
     },
     "assets": {
@@ -54,12 +54,49 @@
     "groups": [
         {
             "name": "branding",
-            "title": "Buttons",
+            "title": "Branding",
             "components": [
                 {
                     "group": "branding",
-                    "name": "button",
-                    "title": "primary",
+                    "name": "color-scheme",
+                    "title": "Color Scheme",
+                    "type": "colors",
+                    "colors": [
+                        "#ec008c",
+                        "#702c91",
+                        "#231f20"
+                    ]
+                },
+                {
+                    "group": "branding",
+                    "name": "logo",
+                    "title": "Logo",
+                    "width": "half"
+                },
+                {
+                    "name": "typography",
+                    "title": "Typography",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "branding"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "primary",
+                    "title": "Primary",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "secondary",
+                    "title": "Secondary",
                     "width": "half"
                 }
             ]
